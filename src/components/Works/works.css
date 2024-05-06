@@ -1,0 +1,65 @@
+
+#works{
+    width: 100vw;
+    min-height: calc(100vh-4rem);
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.heading{
+    font-size: 3rem;
+    margin : 1rem 0;
+    color: #5221e6;
+}
+
+.para{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.portImg{
+    object-fit: cover;
+    height: 20rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.workBtn{
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: #5221e6;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin: 3rem 0;
+}
+
+.butn{
+    border: none;
+}
+
+.butn :hover{
+    filter: blur(2px);
+}
+
+
+@media screen and (max-width:585px) {
+    .portImg{
+        height: 48vw;
+    }
+} 
